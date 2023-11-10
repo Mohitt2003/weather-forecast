@@ -1,0 +1,99 @@
+/* Add a background color and some basic styling to the body */
+body {
+    color:#86A789;
+    background-image: url(iam.gif);
+    background-size: 60px 30px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .card {
+    background-color: #fff;
+    background-image: url(icon.jpg);
+    background-size: 95rem 23rem;
+    box-shadow: 0 0 10px rgba(228, 223, 223, 0.1);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: tran;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  button img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .Weather {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .Weather-icon {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .temp {
+    font-size: 36px;
+    color: #beb1ee;
+  }
+  
+  .city {
+    font-size: 24px;
+    color: #beb1ee;
+  }
+  
+  .details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .col {
+    display: flex;
+    align-items: center;
+  }
+  
+  .col img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .col p {
+    margin: 0;
+    color: #beb1ee;
+  }
+  
+  /* Customize the details section as needed */
+  .humidity {
+    font-size: 24px;
+    color: #beb1ee;
+  }
+  
+  .wind {
+    font-size: 24px;
+    color: #beb1ee;
+  }
+  
